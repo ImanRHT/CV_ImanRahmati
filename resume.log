@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  5 OCT 2023 23:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  6 OCT 2023 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,19 +730,13 @@ Overfull \hbox (3.23123pt too wide) in alignment at lines 155--155
 [1
 
 ] [2] (./resume.aux)
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: 813D3A4ABBF24662177F6EB457CAB193;508
-(rerunfilecheck)             After:  DC91D6BF8E0044DA4328919B0680DC48;639.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: DC91D6BF8E0044DA4328919B0680DC48;639.
  ) 
 Here is how much of TeX's memory you used:
  18974 strings out of 476919
  347591 string characters out of 5821839
- 655659 words of memory out of 5000000
+ 655811 words of memory out of 5000000
  38654 multiletter control sequences out of 15000+600000
  407291 words of font info for 48 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
