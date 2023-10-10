@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  6 OCT 2023 22:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  10 OCT 2023 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,19 +727,27 @@ Overfull \hbox (3.23123pt too wide) in alignment at lines 155--155
 [][] [] 
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 208.
 [1
 
 ] [2] (./resume.aux)
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: DC91D6BF8E0044DA4328919B0680DC48;639.
+
+Package rerunfilecheck Warning: File `resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume.out':
+(rerunfilecheck)             Before: 8EC3815BFADD8BC233CC51CF0082243D;644
+(rerunfilecheck)             After:  1B3852A2377DEFF4BB55D29F2F1A3B32;717.
  ) 
 Here is how much of TeX's memory you used:
- 18974 strings out of 476919
- 347591 string characters out of 5821839
- 655811 words of memory out of 5000000
- 38654 multiletter control sequences out of 15000+600000
- 407291 words of font info for 48 fonts, out of 8000000 for 9000
+ 18981 strings out of 476919
+ 347673 string characters out of 5821839
+ 654816 words of memory out of 5000000
+ 38659 multiletter control sequences out of 15000+600000
+ 408564 words of font info for 52 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,14n,89p,449b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,14n,89p,449b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (2 pages).
