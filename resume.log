@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  10 OCT 2023 14:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  15 OCT 2023 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,19 +732,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 ] [2] (./resume.aux)
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: 8EC3815BFADD8BC233CC51CF0082243D;644
-(rerunfilecheck)             After:  1B3852A2377DEFF4BB55D29F2F1A3B32;717.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 1B3852A2377DEFF4BB55D29F2F1A3B32;717.
  ) 
 Here is how much of TeX's memory you used:
  18981 strings out of 476919
  347673 string characters out of 5821839
- 654816 words of memory out of 5000000
+ 654910 words of memory out of 5000000
  38659 multiletter control sequences out of 15000+600000
  408564 words of font info for 52 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
