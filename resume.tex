@@ -95,7 +95,25 @@ bottom=6pt}
 	Jul\or Aug\or Sep\or Oct\or Nov\or Dec\fi
 	\space \number\year}
 
+
+\usepackage{paracol}
+\usepackage[bottom]{footmisc}
+\usepackage{colortbl}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{soul}
+
+\usepackage{hyperref}
+\RequirePackage{fontawesome}
+
+\usepackage{fontawesome}
+\usepackage{setspace}
+
 \begin{document}
+	
+
+	
 % Title and Header section
 % {% Image
 %     \begin{minipage}[t]{100px}
@@ -143,20 +161,19 @@ bottom=6pt}
 \vspace{-5mm}
 
 \eduWithDetail{MSc. Computer Software Engineering}
-{Sharif University of Technology (SUT)}
-{Graduated Sep 2022}
+{\hspace{1.3cm} Sharif University of Technology (SUT)}
+{Graduated Sep 2022, 17.36/20 GPA (23 units)}
 {images/sharif.png}
 {\multilineCell
-	{\hspace{5mm} 17.36/20 GPA (23 units) \\
-        \hspace{5mm} \textbf{Thesis}:
-        Optimizing Computational Task Offloading Problem in Energy-Constrained Mobile \\ 
-        \hspace{21.5mm}Edge Computing Systems with Deep Reinforcement Learning\\
-        \hspace{5mm} \textbf{Supervisor}: Prof. \href{https://scholar.google.com/citations?user=BXNelwwAAAAJ\&hl=en}{\textbf{Ali Movaghar}}}
+	{
+        \hspace{5mm} \textbf{Thesis Title}:
+        A Novel Resource Allocation Algorithm in Edge Computing with Deep \\ \hspace{3.2cm}Reinforcement Learning \href{https://github.com/ImanRHT/Master_Thesis}{\faGithub}\\
+        \hspace{5mm} \textbf{Supervisor}: Prof. Ali Movaghar \href{https://scholar.google.com/citations?user=BXNelwwAAAAJ\&hl=en}{\small \faExternalLink}}
 }
-\vspace{-5mm}
+\vspace{-5mm}    
 
 \eduWithDetail{BSc. Industrial Engineering}
-{Khajeh Nasir Toosi University of Technology (KNTU)}
+{\hspace{1.2cm}Khajeh Nasir Toosi University of Technology (KNTU)}
 {Graduated Sep 2019}
 {images/iust.png}
 {%\multilineCell{\hspace{5mm}\vspace{-3mm} \\ %\textbf{Frist Rank}, 18.62/20 GPA \\
@@ -175,32 +192,39 @@ bottom=6pt}
 
 
 
+
+\section {Publication}
+I. Rahmati, H. Shah-Mansouri, A. Movaghar, \href{https://arxiv.org/pdf/2311.02525.pdf}{``QOCO: A QoE-Oriented Computation Offloading Algorithm based on Deep Reinforcement Learning for Mobile Edge Computing''}, submitted to IEEE Internet of Things Journal 2023.
+\href{https://arxiv.org/pdf/2311.02525.pdf}{\small  \faExternalLink}
+\href{https://github.com/ImanRHT/QOCO}{\faGithub}
+
+
+
+
 \section{Academic Experience}
 
-\large\large\textbf{Research Assistant}
+\large\large\textbf{Research Assistant} \vspace{-2mm}
 \begin{itemize}
-	\item \textbf{Research Assistant at Performance and Dependability Laboratory (PDL)}
-	\\ \textbf{Supervisor}: Prof. \href{https://scholar.google.com/citations?user=BXNelwwAAAAJ\&hl=en}{\textbf{Ali Movaghar}} \hfill SUT, 2020-present\\
+	\item \textbf{Research Assistant at Performance and Dependability Laboratory (PDL)} \href{https://pdl.ce.sharif.edu}{\small \faExternalLink}
+	\\ Supervisor: Prof. \href{https://scholar.google.com/citations?user=BXNelwwAAAAJ\&hl=en}{Ali Movaghar} \hfill SUT, 2020-present\\
 	\textbf{Research Theme:} Designed and implemented an algorithm leveraging deep reinforcement learning to optimize computation offloading decisions within mobile edge computing, with a primary focus on enhancing the Quality of Experience (QoE) for end-users of mobile applications.
-
-	
 \end{itemize}
-\large\large\textbf{Teaching Assistant}
+\large\large\textbf{Teaching Assistant}  \vspace{-2mm}
 
 \begin{itemize}
 
 	\item \textbf{Performance Evaluation of Computer Systems (Head TA)} \hfill SUT, 2020-present
-		\\ Prof. Ali Movaghar and Dr. Mahdi Dolati
+		\\ Prof. Ali Movaghar and Dr. Mahdi Dolati \vspace{-2mm} \href{https://scholar.google.com/citations?user=b7A2CXYAAAAJ&hl=en&oi=ao}{\small \faExternalLink}
 	\item \textbf{Software Defined Networking (Head TA)} \hfill SUT, 2022
-		\\ Prof. Ali Movaghar and Dr. Mohammad Hosseini
+		\\ Prof. Ali Movaghar and Dr. Mohammad Hosseini \vspace{-2mm} \href{https://scholar.google.com/citations?user=iRO-DVoAAAAJ&hl=en&oi=ao}{\small \faExternalLink}
 	\item \textbf{Verification of Reactive Systems} \hfill SUT, 2021
-		\\ Prof. Ali Movaghar 
+		\\ Prof. Ali Movaghar \vspace{-2mm}
 	\item \textbf{Theory of Machines and Languages} \hfill SUT, 2021
-		\\ Prof. Ali Movaghar 
+		\\ Prof. Ali Movaghar \vspace{-2mm}
 
 \end{itemize}
 \large\large\textbf{Reviewer at 27th International Computer Conference} \hfill CSICC, 2022 \\
- \href{http://csi.org.ir/csicc2022/index-2.html}{ \textcolor{white}{iiiiiii}Computer Society of Iran (CSICC)}\\ \href{https://ieeexplore.ieee.org/xpl/conhome/9780464/proceeding}{ \textcolor{white}{iiiiii} IEEE website published papers from this conference}.
+  \textcolor{white}{iiiiiii}Computer Society of Iran (CSICC) \href{http://csi.org.ir/csicc2022/index-2.html}{\small \faExternalLink}\\ \textcolor{white}{iiiiii} IEEE website published papers from this conference. \href{https://ieeexplore.ieee.org/xpl/conhome/9780464/proceeding}{\small \faExternalLink}
 
 \section{Honors}
 \begin{itemize}
@@ -208,24 +232,69 @@ bottom=6pt}
 	\item{Ranked Top 25\% in the Department of Computer Engineering among M.Sc. Students, SUT, Class 2019 \hfill Jul 2022}\vspace{-2mm}
 	\item {Ranked 55$^{th}$ among 30,000 Participants in the Nationwide University Entrance Exam of Computer Engineering for M.Sc. in the Field of Software Engineering \hfill Aug 2019}\vspace{-2mm}
 	\item{Ranked Top 1\% among 180,000 Participants in the Nationwide University Entrance Exam for B.Sc. in the Field of Mathematics and Physics  \hfill Jul 2014}
+	\item{Achieving the 1st position in the RoboCup Competition (IranOpen)  \hfill Mar 2012}\vspace{-2mm}
 \end{itemize}
 
 
-\section{Projects}
-\textbf{Discrete Event Simulation}
+\section{Academic Projects}
+
 \begin{itemize}
-	\item Modeling Task Offloading Problem in Mobile Edge Computing Systems \vspace{-2mm}
-	\item Development of IoT environment for prediction of load level and energy consumption \vspace{-2mm}
-	\item Simulation of Edge/Fog Computing Environment in Python \vspace{-2mm}
-	\item Simulation of M/M/1/K Queue with Discriminatory Processor Sharing Service Order
+	
+	
+		
+	\item \textbf{QoE Maximization in Mobile Edge Computing} \hfill SUT, 2021\\
+	Optimizing Decision-Making for Computation Offloading in Mobile Edge Computing using Deep Reinforcement Learning (Dueling Deep Q-Networks) \href{https://github.com/ImanRHT/QOCO}{\faGithub} \\
+	Supervisor: Prof.  Ali Movaghar and Dr. Hamed Shah-Mansouri \href{https://scholar.google.com/citations?user=dcjIFccAAAAJ&hl=en&oi=ao}{\small \faExternalLink} 
+	
+	
+	\item \textbf{Mobile Edge Computing Environment} \hfill SUT, 2021\\
+	Modeling and Simulation of Mobile Edge Computing under Resource Constraints for Delay and Energy Optimization \href{https://github.com/ImanRHT/MEC_Environment}{\faGithub} \\
+	Supervisor: Prof.  Ali Movaghar
+	
+
+
+	
+	\item \textbf{Time Series Analysis} \hfill SUT, 2021\\
+	Design a Model for forecasting Edge Server Workload using Recurrent Neural Networks such as Long Short Term Memory
+	\href{https://github.com/ImanRHT/Time_Series_Prediction}{\faGithub} \\
+	Supervisor: Prof.  Ali Movaghar
+	
+	\item \textbf{Computer Performance Evaluation} \hfill SUT, 2020\\
+	Simulation and Performance Analysis of M/M/1/K Queue Model with Varied Service Orders (FCFS, Processor Sharing, Discriminatory Processor Sharing) \href{https://github.com/ImanRHT/MM1K_Queue_Simulation}{\faGithub} \\
+	Supervisor: Prof.  Ali Movaghar
+	
+
+
+	\item \textbf{Distributed Systems} \hfill SUT, 2019\\
+	A Survey on `Verification of Paxos and Raft Protocols in Distributed Consensus’ \\
+	Supervisor: Dr. Mohammad Izadi	\href{https://scholar.google.com/citations?user=On8Cw-MAAAAJ&hl=en&oi=ao}{\small \faExternalLink}
+
+
+%	\item \textbf{Decision Making Analysis} \hfill KNTU, 2018\\
+%	A survey on ’Application of Data Envelopment Analysis (DEA) for Evaluating Efficiency by MATLAB’\\ 
+%	Supervisor: Dr. Naser Safaie
+%	\href{https://scholar.google.com/citations?user=J0M--CIAAAAJ&hl=en&oi=ao}{\small \faExternalLink}
+	
+	\item \textbf{Industrial Facilities Planning} \hfill KNTU, 2018\\
+	Operational Sequence of Activities (Material Flow) and Establishment of Industrial Units in the Process of Gears Manufacturing in an Automaker Company\\
+	Supervisor: Dr. Donya Rahmani
+	\href{https://scholar.google.com/citations?user=qUqJT7MAAAAJ&hl=en&oi=ao}{\small \faExternalLink}
+	
+	\item \textbf{Project Management and Control} \hfill KNTU, 2017\\
+	Scheduling, Time management and Resource Allocation in a Construction Project\\
+	Supervisor: Dr. Amir Abbas Najafi
+	\href{https://scholar.google.com/citations?user=adOQSIEAAAAJ&hl=en&oi=ao}{\small \faExternalLink}
+	
+%	\item \textbf{Quality Management} \hfill KNTU, 2017\\
+%	Implementation of Failure Modes and Effects Analysis (FMEA) from a Managerial Perspective\\
+%	Supervisor: Dr. Naser Safaie
+	
+
+	
 \end{itemize}
-\textbf{Machine learning}
-\begin{itemize}
-	\item Decision Making Optimization for Task Offloading with Dueling Deep Q-Networks  \vspace{-2mm}
-	\item Performance Optimization of Mobile Edge Computing Systems with Q-Learning \vspace{-2mm}
-	\item Solving the Vehicle Routing Problem with Deep Q-Networks \vspace{-2mm}
-	\item Modeling and Prediction of Time-Series with Recurrent Neural Networks (RNN)and ForexData 
-\end{itemize}
+
+
+
 
 \section{SELECTED COURSES}
 
@@ -238,8 +307,6 @@ bottom=6pt}
 
 
 
-\section {Publication}
- I. Rahmati, H. Shahmansouri, A. Movaghar, \href{https://arxiv.org/pdf/2311.02525.pdf}{``QOCO: A QoE-Oriented Computation Offloading Algorithm based on Deep Reinforcement Learning for Mobile Edge Computing''}, submitted to IEEE Internet of Things Journal 2023.
 
 
 
@@ -358,15 +425,19 @@ bottom=6pt}
 
 \section{REFERENCES}
 
-\textbf{Prof. \href{https://scholar.google.com/citations?user=BXNelwwAAAAJ\&hl=en}{\textbf{Ali Movaghar}}} \hfill movaghar@sharif.edu\\
+\textbf{Prof. Ali Movaghar} \href{https://scholar.google.com/citations?user=BXNelwwAAAAJ\&hl=en}{\small \faExternalLink} \hfill \href{mailto:movaghar@sharif.edu}{movaghar@sharif.edu}\\
 Professor of Computer Science and Engineering Department, SUT \\
-Visiting Professor of Computer Science and Engineering Department, University of Michigan\\
-\textbf{Prof. \href{https://scholar.google.com/citations?user=wob0AskAAAAJ&hl=en&oi=ao}{\textbf{Ali Mohammad Afshin Hemmatyar}}}\hfill hemmatyar@sharif.edu\\
-Professor of Computer Science and Engineering Department, SUT\\
-\textbf{Dr. \href{https://scholar.google.com/citations?user=dcjIFccAAAAJ&hl=en&oi=ao}{\textbf{Hamed Shah-Mansouri}}}\hfill  hamedsh@sharif.edu\\
+Visiting Professor of Computer Science Department, University of Michigan\\
+\textbf{Dr. Hamed Shah-Mansouri} \href{https://scholar.google.com/citations?user=dcjIFccAAAAJ&hl=en&oi=ao}{\small \faExternalLink} \hfill  \href{mailto:hamedsh@sharif.edu}{hamedsh@sharif.edu}\\
 Assistant Professor of Electrical Engineering Department, SUT\\
-\textbf{Dr. \href{https://scholar.google.com/citations?user=b7A2CXYAAAAJ&hl=en&oi=ao}{\textbf{Mahdi Dolati}}} \hfill  mahdidolati@ut.ac.ir\\ Postdoctoral of Institute For Research In Fundamental Sciences Researcher (IPM)\\
-\textbf{Dr. \href{https://scholar.google.com/citations?user=iRO-DVoAAAAJ&hl=en&oi=ao}{\textbf{Mohammad Hosseini}}}\hfill  hosseini@ipm.ir \\ Postdoctoral of Institute For Research In Fundamental Sciences Researcher (IPM)\\
+\textbf{Prof. Ali Mohammad Afshin Hemmatyar} \href{https://scholar.google.com/citations?user=wob0AskAAAAJ&hl=en&oi=ao}{\small \faExternalLink}  \hfill \href{mailto:hemmatyar@sharif.edu}{hemmatyar@sharif.edu}\\
+Professor of Computer Science and Engineering Department, SUT\\
+\textbf{Dr. Mahdi Dolati} \href{https://scholar.google.com/citations?user=b7A2CXYAAAAJ&hl=en&oi=ao}{\small \faExternalLink} \hfill  \href{mailto:mahdidolati@ut.ac.ir}{mahdidolati@ut.ac.ir}\\ Postdoctoral of Institute For Research In Fundamental Sciences Researcher (IPM)\\
+\textbf{Dr. Mohammad Hosseini} \href{https://scholar.google.com/citations?user=iRO-DVoAAAAJ&hl=en&oi=ao}{\small \faExternalLink} \hfill  \href{mailto:hosseini@ipm.ir}{hosseini@ipm.ir} \\ Postdoctoral of Institute For Research In Fundamental Sciences Researcher (IPM)\\\\\\\\
 
+
+
+
+Further information and Proofs are available upon Request.
 
 \end{document}
