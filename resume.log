@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.28)  4 SEP 2024 03:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.28)  12 NOV 2024 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,28 +715,30 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
 neric.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
-ftex.tex)) (./resume.aux)
+ftex.tex))
+Package hyperref Info: Option `colorlinks' set `true' on input line 121.
+ (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-Package hyperref Info: Link coloring OFF on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+Package hyperref Info: Link coloring ON on input line 125.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -750,9 +752,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
  (./resume.out) (./resume.out)
 \@outlinefile=\write6
 \openout6 = `resume.out'.
@@ -820,50 +822,47 @@ ut line 7.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 173
-.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 5--11
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+ []
+
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 184
+.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 173
+LaTeX Font Info:    Trying to load font information for U+msb on input line 184
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (6.85182pt too wide) in alignment at lines 173--173
+Overfull \hbox (6.85182pt too wide) in alignment at lines 184--184
 [][] [] 
  []
 
 
-Overfull \hbox (6.67285pt too wide) in alignment at lines 186--186
+Overfull \hbox (6.67285pt too wide) in alignment at lines 198--198
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.43391pt too wide) in paragraph at lines 281--283
+Overfull \hbox (2.43391pt too wide) in paragraph at lines 300--302
 \OT1/cmr/m/n/10.95 Designed based on de-cen-tral-ized par-tially ob-serv-able m
 arkov de-ci-sion pro-cesses (Dec-POMDP)
  []
 
-
-Overfull \vbox (3.47966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (3.47966pt too high) has occurred while \output is active []
-
-
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 395--404
+Underfull \hbox (badness 10000) in paragraph at lines 414--423
 
  []
 
@@ -874,7 +873,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  22320 strings out of 478994
  395027 string characters out of 5858183
- 840844 words of memory out of 5000000
+ 840845 words of memory out of 5000000
  39402 multiletter control sequences out of 15000+600000
  412178 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -891,10 +890,10 @@ b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
 sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on resume.pdf (3 pages, 118966 bytes).
+Output written on resume.pdf (3 pages, 120141 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 139 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  14 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
